@@ -8,5 +8,17 @@
 </head>
 <body>
     
+    <h1>Badwords</h1>
+
+    <h2>Inserisci del testo nel campo di input e scegli la parola da censurare</h2>
+    
+    <form action="result.php" method="GET">
+    
+        <input type="text" name="text" placeholder="Inserisci testo..." required>
+        <input type="text" name="badword" placeholder="Badword" required>
+    
+        <button type="submit"> Vai</button>
+    </form>
+    
 </body>
 </html>
